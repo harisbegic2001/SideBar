@@ -1,0 +1,32 @@
+--> HTML and CSS part <--
+1.Delete h1 - heading xx
+
+2. Create a button of class sidebar-toggle inside of this button we will type i.fas.fa-bars that should create i tag with certain class --> this will make our button bounce xx
+
+3. Next thing we must do is we have to create a sidebar tag  which has class of sidebar inside we have to create a div element we can do that with .sidebar-header. xx
+
+4. Within this div we will create img tag in which src will be ./logo.svg and class logo xx
+
+5. Bellow our logo but inside our div we want to put our button of class close-btn  in button we go with i.fas.fa-times.  xx
+
+6. Next step we do is we copy html code from our utils.txt and paste it after div closing tag but inside our aside tag xx
+
+7.Uncomment transform .sidebar css
+
+    --> JS part <--
+1. Elements that we want to select are: Our button with class .sidebar-toggle; another button with class .close-btn; the last one is our sidebar with class .sidebar xx
+
+2. So we want to create 3 constant variables that will query sellect from classes that i talked in task above. Names of classes should be: toggleBtn, closeBtn, sidebar xx
+
+3. For our toggle button, we want to add event listener on command click xx
+
+4. inside of our function we will just check if our sidebar has class .show-sidebar /* check css if you can't remember */ xx
+
+5. If it doesn't have show sidebar class we will add  .show-sidebar xx
+
+6. If it does have show sidebar class we will remove .show-sidebar xx
+
+7. We can do this with if/else and do if sidebar.classList.contains("show-sidebar") we will remove it else we will add it. xx
+
+8. 2nd option is using toggle method. sidebar.classList.toggle("show-sidebar"); we will do it the first way. xx
+9. We create for our close btn eventlistener inside body we will just use method to remove our sidebar-show class from our sidebar classes.
